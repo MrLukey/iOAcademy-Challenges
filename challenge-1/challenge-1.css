@@ -1,0 +1,108 @@
+body {
+	width: 792px;
+	height: 612px;
+}
+
+.logo-title {
+	width: 306px;
+	font-size: 100px;
+	font-family: GothamPro;
+	text-align: center;
+	margin: 0;
+}
+
+.picture-replicant {
+	height: 792px;
+	width: 612px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.custom-logo {
+	display: block;
+	width: 298px;
+	height: 365px;
+	margin: 50px;
+	position: relative;
+	top: 0;
+}
+
+.logo-element {
+	width: 298px;
+	height: 365px;
+	position: absolute;
+}
+
+.shield {
+	clip-path: polygon(0% 0%, 100% 0%, 91% 83%, 50% 92.5%, 9% 83%);
+	z-index: 10;
+}
+
+.half-shield {
+	clip-path: polygon(50% 6.5%, 90.5% 6.5%, 82.5% 78%, 50% 85%);
+	z-index: 20;
+}
+
+.number {
+	background: linear-gradient(to right, rgb(235, 235, 235) 0%, 
+		rgb(235, 235, 235) 50%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+	z-index: 30;
+}
+
+.five {
+	clip-path: polygon(
+		18.5% 16.75%, 	/* 1 <- top-left-corner */
+		81.5% 16.75%, 	/* 2 <- top-right-corner */
+		80.25% 27.25%, 	/* 3 */
+		32.75% 27.25%, 	/* 4 */
+		33.5% 37.5%, 	/* 5 */
+		79% 37.5%, 		/* 6 */
+		75.75% 69%,		/* 7 */
+		50% 74.75%, 	/* 8 */
+		24.25% 69%, 	/* 9 */
+		22.5% 52.75%, 	/* 10 */
+		35.25% 52.75%, 	/* 11 */
+		36.25% 61%, 	/* 12 */
+		50% 64%, 		/* 13 */
+		63.75% 61%, 	/* 14 */
+		65.25% 47.75%,	/* 15 */
+		22% 47.75%); 	/* 16 */
+}
+
+.three {
+	clip-path: polygon(
+		18.5% 16.75%, 	/* 1 <- top-left-corner */
+		81.5% 16.75%, 	/* 2 <- top-right-corner */
+		75.75% 69%, 	/* 3 */
+		50% 74.75%, 	/* 4 */
+		24.25% 69%,		/* 5 */
+		22.5% 52.75%,	/* 6 */
+		35.25% 52.75%,	/* 7 */
+		36.25% 61%,		/* 8 */
+		50% 64%,		/* 9 */
+		63.75% 61%,		/* 10 */
+		65.25% 47.75%,	/* 11 */
+		36.25% 47.75%,	/* 12 */
+		35% 37.5%,		/* 13 */
+		66.25% 37.5%,	/* 14 */
+		67.5% 27%,		/* 15 */
+		19.75% 27%);	/* 16 */
+}
+
+.html-shield {
+	background-color: rgb(228,79,38);
+}
+
+.html-half-shield {
+	background-color: rgb(241,102,42);
+}
+
+.css-shield {
+	background-color: rgb(21,114,182);
+}
+
+.css-half-shield {
+	background-color: rgb(51,169,220);
+}
+
+
